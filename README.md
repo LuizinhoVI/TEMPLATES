@@ -1,2 +1,3 @@
 # TEMPLATES
-armazenamento de templads
+
+-Modelos de sites para escolher.
