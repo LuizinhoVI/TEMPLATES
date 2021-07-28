@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div>img {
+    width: 20%;
+    height: 20%;
+}
+
+div>div>.coluna-1 {
+    display: flex;
+    justify-content: center;
+}
