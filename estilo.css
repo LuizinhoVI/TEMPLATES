@@ -36,7 +36,7 @@ a>img {
 
 .w3-row>div {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr, fr;
 }
 
 div {
@@ -72,3 +72,5 @@ div {
 .w3-image {
     border-radius: 100px;
 }
+
+@media() {}
