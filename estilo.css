@@ -31,12 +31,17 @@ a>img {
     height: 90%;
 }
 
+div>div>div>label {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 /* menu ddo sites  */
 
 .w3-row>div {
     display: grid;
-    grid-template-columns: 1fr, fr;
+    grid-template-columns: 1fr;
 }
 
 div {
@@ -72,5 +77,3 @@ div {
 .w3-image {
     border-radius: 100px;
 }
-
-@media() {}
