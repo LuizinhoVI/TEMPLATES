@@ -1,0 +1,34 @@
+    a {
+        text-decoration: none;
+    }
+    
+    header>nav {
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        place-items: center;
+        top: 0;
+        left: 0;
+        border: solid rgb(0, 0, 0) 1px;
+        height: 50px;
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    header>nav>a>div {
+        width: 150px;
+        height: 80%;
+        margin-left: 5px;
+        background-color: white;
+        border-radius: 20px;
+        border: solid blue 1px;
+        padding: 2px;
+    }
+    
+    header>nav>a>div:hover {
+        background-color: blue;
+        transition: background 0.8s;
+        color: white;
+        cursor: pointer;
+        border: solid white 1px;
+    }

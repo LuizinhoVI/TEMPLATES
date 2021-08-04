@@ -1,3 +1,4 @@
+@import url("menu.css");
 html {
     scroll-behavior: smooth;
 }
@@ -5,30 +6,22 @@ html {
 body {
     font-family: "Raleway", Arial, sans-serif;
     margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 header {
     position: fixed;
     width: 100%;
     height: 20px;
-    border-bottom: solid black 1px;
     background-color: #636363;
     z-index: 1;
     top: 0;
+    box-shadow: 0px 0px 2px 1px;
 }
 
-header>a {
-    position: relative;
-    margin-top: -20px;
-    /* width: 50px; */
-    height: 40px;
-    font-size: 18px;
-    background-color: red;
-}
-
-a>img {
-    width: 100%;
-    height: 90%;
+header.container {
+    display: none;
 }
 
 div>div>div>label {
@@ -36,13 +29,32 @@ div>div>div>label {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.w3-content>div>div {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 50px, 50px;
+}
 
-/* menu ddo sites  */
+.w3-row>div>div {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.w3-row>div>div>img {
+    box-shadow: 0px 2px 1px 20px;
+}
+
+
+/* menu do sites  */
 
 .w3-row>div {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
+
+
+/* final do temas sugeridos */
 
 div {
     text-align: center;
@@ -71,7 +83,9 @@ div {
 
 .w3-left,
 .w3-right {
+    position: relative;
     border-radius: 20px;
+    top: -20px;
 }
 
 .w3-image {
